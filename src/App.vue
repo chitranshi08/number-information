@@ -1,0 +1,32 @@
+<template>
+  <div id="app">
+    <NumberDetail/>
+  </div>
+</template>
+
+<script>
+import NumberDetail from './components/NumberDetail.vue'
+
+export default {
+  name: 'App',
+  components: {
+    NumberDetail
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+body{
+  background-image: url("./assets/number.jpg");
+  background-size: cover;
+
+
+}
+</style>
