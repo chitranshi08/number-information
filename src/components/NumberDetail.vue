@@ -1,6 +1,6 @@
 <template>
   <div>
-  		<h1>Inresting Fact About Numbers</h1>
+  		<h1>Interesting Fact About Numbers</h1>
 
   	<div class="mainContainer">
  <input type="text"  @keyup.enter="getResult"  v-model="enterNumber" @input="hideText" placeholder="Please enter any number" />
