@@ -28,7 +28,7 @@ methods:{
 getResult(){
 	var number = this.enterNumber 
 	this.showLoader = true;
-fetch(`https://numbersapi.com/${number}?json`)
+fetch(`http://numbersapi.com/${number}?json`)
 .then((response)=>{return response.json()})
 .then((response)=>{
 	console.log(response)
